@@ -1,10 +1,11 @@
 {
-    "name": "brandaorodrigo/moodle-format_buttons",
-    "type": "moodle-format",
-    "require": {
-        "composer/installers": "~1.0"
-    },
-    "extra": {
-        "installer-name": "buttons"
+  "name": "embanet-compass/moodle-format_buttons",
+  "type": "moodle-format",
+  "description": "Buttons course format for Moodle 3x",
+  "extra": {
+    "installer-name": "buttons",
+    "moodle": {
+      "package_folder_name": "buttons"
     }
+  }
 }
